@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  background-color: coral;
+}
+
+nav .container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+nav .container ul {
+  display: flex;
+  text-align: center;
+}
+
+nav .container ul li {
+  padding: 20px 10px;
+}
+
+nav .container ul li:hover {
+  background-color: crimson;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.cards {
+  display: flex;
+}
+
+.card img {
+  height: 100px;
+}
+

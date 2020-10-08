@@ -1,0 +1,23 @@
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    background-color: coral;
+    .container{
+        width: 90%;
+        margin: 0 auto;
+        ul{
+            display: flex;
+            text-align: center;
+            li{
+                padding: 20px 10px;
+                &:hover{
+                    background-color: crimson;
+                }
+            }
+        }
+    }
+
+}
