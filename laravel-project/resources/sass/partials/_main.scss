@@ -5,13 +5,23 @@
 }
 
 .cards {
-    // display: flex;
-    // flex-wrap: wrap;
-    // justify-content: flex-start
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start
 }
 
 .card {
-    img{height: 300px;}
-    display: inline;
-    width: calc(100% / 4);
+    cursor: pointer;
+    img{
+        max-width: 100%;
+    }
+    width: 25%;
+    padding: 10px;
+    &:hover{
+        transform: scale(1.1)
+    }
+}
+
+h2{
+    padding: 10px;
 }

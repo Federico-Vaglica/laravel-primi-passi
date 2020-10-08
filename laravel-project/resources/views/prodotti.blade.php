@@ -141,6 +141,5 @@ foreach ($cards as $card) {
 
 @include('partials.header')
 @include('partials.main_prodotti')
+@include('partials.footer')
 
-    </body>
-</html>

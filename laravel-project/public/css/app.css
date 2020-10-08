@@ -10,6 +10,15 @@ ul {
 
 a {
   text-decoration: none;
+  cursor: pointer;
+}
+
+footer {
+  background-color: goldenrod;
+}
+
+footer h4 {
+  padding: 10px;
 }
 
 .logo {
@@ -44,12 +53,27 @@ nav .container ul li:hover {
   margin: 0 auto;
 }
 
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
 .card {
-  display: inline;
-  width: calc(100% / 4);
+  cursor: pointer;
+  width: 25%;
+  padding: 10px;
 }
 
 .card img {
-  height: 300px;
+  max-width: 100%;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+h2 {
+  padding: 10px;
 }
 
