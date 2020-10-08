@@ -5,9 +5,13 @@
 }
 
 .cards {
-    display: flex;
+    // display: flex;
+    // flex-wrap: wrap;
+    // justify-content: flex-start
 }
 
 .card {
-    img{height: 100px;}
+    img{height: 300px;}
+    display: inline;
+    width: calc(100% / 4);
 }

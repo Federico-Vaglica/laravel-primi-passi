@@ -44,11 +44,12 @@ nav .container ul li:hover {
   margin: 0 auto;
 }
 
-.cards {
-  display: flex;
+.card {
+  display: inline;
+  width: calc(100% / 4);
 }
 
 .card img {
-  height: 100px;
+  height: 300px;
 }
 
