@@ -1,2 +1,7 @@
-@include('partials.header')
-@include('partials.footer')
+@extends('layout.app')
+@section('titolo','Contatti')
+    
+@section('central-section')
+
+
+

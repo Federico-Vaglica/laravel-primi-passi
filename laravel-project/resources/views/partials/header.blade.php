@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="{{asset('css/app.css')}}">
-    <title>La Molisana</title>
 </head>
 <body>
     <header>
@@ -15,12 +7,11 @@
         <nav>
             <div class='container'>
                 <ul>
-                    <li><a href="{{route('home')}}">Home</a></li>
-                    <li><a href="{{route('prodotti')}}">Prodotti</a></li>
-                    <li><a href="{{route('contatti')}}">Contatti</a></li>
+                    <li><a href="{{route('home')}}" class="link {{url()->current()== route('home') ? 'active' : 'noactive'}}">Home</a></li>
+                    <li><a href="{{route('prodotti')}}" class="link {{url()->current()== route('prodotti') ? 'active' : 'noactive'}}">Prodotti</a></li>
+                    <li><a href="{{route('contatti')}}" class="link {{url()->current()== route('contatti') ? 'active' : 'noactive'}}">Contatti</a></li>
                 </ul>
             </div>
-
         </nav>
-
     </header>
+    
